@@ -4,7 +4,7 @@ from chatterbot.trainers import ListTrainer
 
 app = Flask(__name__)
 
-chatterbot = ChatBot("My Personal Assistant")
+chatterbot = ChatBot("My Personal Assistant", storage_adapter="chatterbot.storage.SQLStorageAdapter")
 
 @app.route("/")
 def home():
