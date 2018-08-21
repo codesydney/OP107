@@ -16,11 +16,6 @@ chatterbot.train([
 ])
 
 chatterbot.train([
-    "Hello!",
-    "Hi!",
-])
-
-chatterbot.train([
     "Where can I find our accounts register?",
     "It's is in our network drive G:/Customer Folder/",
 ])
